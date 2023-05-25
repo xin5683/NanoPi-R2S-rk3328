@@ -84,9 +84,9 @@ svn export https://github.com/msylgj/OpenWrt_luci-app/trunk/luci-app-services-wo
 svn export https://github.com/openwrt/packages/trunk/utils/apk
 
 # Add luci-udptools
-svn export https://github.com/zcy85611/Packages/trunk/luci-udptools
-svn export https://github.com/zcy85611/Packages/trunk/udp2raw
-svn export https://github.com/zcy85611/Packages/trunk/udpspeeder
+# svn export https://github.com/zcy85611/Packages/trunk/luci-udptools
+# svn export https://github.com/zcy85611/Packages/trunk/udp2raw
+# svn export https://github.com/zcy85611/Packages/trunk/udpspeeder
 
 # Add extra wireless drivers
 svn export https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/rtl8812au-ac
