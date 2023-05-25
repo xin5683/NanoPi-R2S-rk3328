@@ -84,9 +84,9 @@ svn export https://github.com/msylgj/OpenWrt_luci-app/trunk/luci-app-services-wo
 svn export https://github.com/openwrt/packages/trunk/utils/apk
 
 # Add luci-udptools
-svn export https://github.com/zcy85611/Packages/trunk/luci-udptools
-svn export https://github.com/zcy85611/Packages/trunk/udp2raw
-svn export https://github.com/zcy85611/Packages/trunk/udpspeeder
+# svn export https://github.com/zcy85611/Packages/trunk/luci-udptools
+# svn export https://github.com/zcy85611/Packages/trunk/udp2raw
+# svn export https://github.com/zcy85611/Packages/trunk/udpspeeder
 
 # Add extra wireless drivers
 svn export https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/rtl8812au-ac
@@ -130,7 +130,7 @@ popd
 sed -i 's/\/bin\/ash/\/usr\/bin\/zsh/g' package/base-files/files/etc/passwd
 # sed -i 's/5.15/5.10/g' target/linux/rockchip/Makefile
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
 
 # 风扇脚本
 sed -i "s/enabled '0'/enabled '1'/g" feeds/packages/utils/irqbalance/files/irqbalance.config
